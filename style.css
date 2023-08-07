@@ -1,0 +1,70 @@
+/* Wrapper */
+body {
+    background: whitesmoke;
+}
+
+body .wrapper {
+    display: flex;
+    width: 800px;
+    margin: auto;
+    background: white;
+    border: black 2px double;
+}
+
+/* Sidebar styling */
+.wrapper .sidebar {
+    padding-top: 30px;
+
+    background: #E0EBFE;
+}
+
+.wrapper .sidebar .cvPhoto {
+    height: 350px;
+    padding-bottom: 20px;
+}
+
+.wrapper .sidebar .sidebar-content-contacts,
+.wrapper .sidebar .sidebar-content-techSkills,
+.wrapper .sidebar .sidebar-content-softSkills {
+    padding-left: 20px;
+
+}
+.wrapper .sidebar .sidebar-content-contacts a{
+    text-decoration: none;
+    color: #0a53be;
+}
+.wrapper .sidebar .sidebar-content-contacts a:hover{
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.wrapper .sidebar .sidebar-content-techSkills ul,
+.wrapper .sidebar .sidebar-content-softSkills ul {
+    margin-left: -24px;
+    margin-top: -12px;
+    padding-bottom: 12px;
+    list-style: circle;
+    color: darkslategray;
+    font-family: "Times New Roman", fantasy;
+}
+
+/* main-content styling */
+
+.wrapper .main-content .cvTitle {
+    font-family: "Source Code Pro", "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+.wrapper .main-content .cvName {
+    font-size: xxx-large;
+    text-decoration: underline darkred;
+    font-family: "American Typewriter", cursive;
+}
+
+.wrapper .main-content ol li a {
+    text-decoration: none;
+    color: blue;
+}
+.wrapper .main-content ol li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
